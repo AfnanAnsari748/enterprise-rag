@@ -1,0 +1,20 @@
+# Minimal dependencies for running the RAG FastAPI app
+# Install with: pip install -r requirements.txt
+
+fastapi>=0.95.0
+uvicorn[standard]>=0.22.0
+pypdf>=3.0.0
+langchain-text-splitters>=0.0.11
+sentence-transformers>=2.2.2
+transformers>=4.30.0
+torch>=2.0.0
+chromadb>=0.4.0
+rank-bm25>=0.2.2
+langgraph>=0.1.0
+numpy>=1.24.0
+python-multipart>=0.0.6
+# NOTE:
+# - Some packages (torch, transformers, sentence-transformers) may need specific
+#   CUDA / CPU builds for your environment. Adjust versions as needed.
+# - If 'langgraph' is a private package for your environment, install it from
+#   your private repository or replace with the appropriate package name.
