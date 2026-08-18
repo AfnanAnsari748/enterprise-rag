@@ -33,8 +33,6 @@
 
 Enterprise RAG Chatbot is a domain-specific Q&A service that answers questions **strictly from your own PDF documents** — no hallucination, no out-of-scope answers. It combines hybrid search (keyword + semantic), neural reranking, and a locally-hosted LLM into a single FastAPI service, orchestrated by a stateful LangGraph pipeline with built-in evaluation and retry loops.
 
-> Designed for teams who need a private, auditable, self-hosted alternative to cloud AI assistants.
-
 ---
 
 ## Architecture & Pipeline Flow
