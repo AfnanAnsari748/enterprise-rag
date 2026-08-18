@@ -144,8 +144,7 @@ flowchart LR
 
 | Tool | Role |
 |---|---|
-| **PyTorch** | Model inference backend — auto-detects CPU or CUDA GPU |
-| **asyncio.Lock** | Concurrency-safe collection mutations |
+| **PyTorch** | Model inference backend — auto-detects CPU or CUDA GPU | 
 | **contextlib lifespan** | FastAPI startup/shutdown lifecycle management |
 
 ---
@@ -177,8 +176,6 @@ enterprise-rag/
 ### Prerequisites
 
 - Python 3.10+
-- 8 GB RAM minimum (16 GB recommended for local LLM)
-- CUDA GPU optional but recommended for faster inference
 
 ### Installation
 
