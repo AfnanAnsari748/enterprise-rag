@@ -335,21 +335,6 @@ Then re-run `POST /create_embeddings` to index the new collection.
 
 ---
 
-## Roadmap
-
-- [ ] JWT / API-key authentication middleware
-- [ ] Streaming responses via Server-Sent Events
-- [ ] Async background ingestion with job-status polling endpoint
-- [ ] Multi-turn conversation memory with session history (Redis)
-- [ ] Semantic answer caching to reduce repeated LLM calls
-- [ ] Prometheus metrics + Grafana observability dashboard
-- [ ] Docker + Kubernetes deployment manifests
-- [ ] Support for DOCX, PPTX, and HTML documents
-- [ ] Query rewriting with HyDE (Hypothetical Document Embeddings)
-- [ ] PII detection and redaction (Microsoft Presidio)
-
----
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
